@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4873A9E1FACFE8700DC0966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873A9D1FACFE8700DC0966 /* AppDelegate.swift */; };
+		D4873AA31FACFE8700DC0966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4873AA11FACFE8700DC0966 /* Main.storyboard */; };
+		D4873AA51FACFE8700DC0966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4873AA41FACFE8700DC0966 /* Assets.xcassets */; };
+		D4873AA81FACFE8700DC0966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4873AA61FACFE8700DC0966 /* LaunchScreen.storyboard */; };
+		D4873AB31FACFE8700DC0966 /* RealMadridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873AB21FACFE8700DC0966 /* RealMadridTests.swift */; };
+		D4873ABE1FACFE8700DC0966 /* RealMadridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873ABD1FACFE8700DC0966 /* RealMadridUITests.swift */; };
+		D4873ACD1FAD009800DC0966 /* TeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873ACC1FAD009800DC0966 /* TeamTableViewController.swift */; };
+		D4873ACF1FAD016E00DC0966 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873ACE1FAD016E00DC0966 /* Players.swift */; };
+		D4873AD11FAD02CC00DC0966 /* PlayersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873AD01FAD02CC00DC0966 /* PlayersData.swift */; };
+		D4873AD31FAD054100DC0966 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873AD21FAD054100DC0966 /* TeamTableViewCell.swift */; };
+		D4873AD51FAD089800DC0966 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873AD41FAD089800DC0966 /* PlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4873AAF1FACFE8700DC0966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4873A921FACFE8600DC0966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4873A991FACFE8700DC0966;
+			remoteInfo = RealMadrid;
+		};
+		D4873ABA1FACFE8700DC0966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4873A921FACFE8600DC0966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4873A991FACFE8700DC0966;
+			remoteInfo = RealMadrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4873A9A1FACFE8700DC0966 /* RealMadrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealMadrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4873A9D1FACFE8700DC0966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4873AA21FACFE8700DC0966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4873AA41FACFE8700DC0966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4873AA71FACFE8700DC0966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4873AA91FACFE8700DC0966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4873AAE1FACFE8700DC0966 /* RealMadridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealMadridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4873AB21FACFE8700DC0966 /* RealMadridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealMadridTests.swift; sourceTree = "<group>"; };
+		D4873AB41FACFE8700DC0966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4873AB91FACFE8700DC0966 /* RealMadridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealMadridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4873ABD1FACFE8700DC0966 /* RealMadridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealMadridUITests.swift; sourceTree = "<group>"; };
+		D4873ABF1FACFE8700DC0966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4873ACC1FAD009800DC0966 /* TeamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewController.swift; sourceTree = "<group>"; };
+		D4873ACE1FAD016E00DC0966 /* Players.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		D4873AD01FAD02CC00DC0966 /* PlayersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersData.swift; sourceTree = "<group>"; };
+		D4873AD21FAD054100DC0966 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		D4873AD41FAD089800DC0966 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4873A971FACFE8700DC0966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4873AAB1FACFE8700DC0966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4873AB61FACFE8700DC0966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4873A911FACFE8600DC0966 = {
+			isa = PBXGroup;
+			children = (
+				D4873A9C1FACFE8700DC0966 /* RealMadrid */,
+				D4873AB11FACFE8700DC0966 /* RealMadridTests */,
+				D4873ABC1FACFE8700DC0966 /* RealMadridUITests */,
+				D4873A9B1FACFE8700DC0966 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4873A9B1FACFE8700DC0966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4873A9A1FACFE8700DC0966 /* RealMadrid.app */,
+				D4873AAE1FACFE8700DC0966 /* RealMadridTests.xctest */,
+				D4873AB91FACFE8700DC0966 /* RealMadridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4873A9C1FACFE8700DC0966 /* RealMadrid */ = {
+			isa = PBXGroup;
+			children = (
+				D4873AA11FACFE8700DC0966 /* Main.storyboard */,
+				D4873AD41FAD089800DC0966 /* PlayerViewController.swift */,
+				D4873ACE1FAD016E00DC0966 /* Players.swift */,
+				D4873ACC1FAD009800DC0966 /* TeamTableViewController.swift */,
+				D4873AD21FAD054100DC0966 /* TeamTableViewCell.swift */,
+				D4873AD01FAD02CC00DC0966 /* PlayersData.swift */,
+				D4873AA91FACFE8700DC0966 /* Info.plist */,
+				D4873ACB1FACFFF200DC0966 /* Supporting Files */,
+			);
+			path = RealMadrid;
+			sourceTree = "<group>";
+		};
+		D4873AB11FACFE8700DC0966 /* RealMadridTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4873AB21FACFE8700DC0966 /* RealMadridTests.swift */,
+				D4873AB41FACFE8700DC0966 /* Info.plist */,
+			);
+			path = RealMadridTests;
+			sourceTree = "<group>";
+		};
+		D4873ABC1FACFE8700DC0966 /* RealMadridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4873ABD1FACFE8700DC0966 /* RealMadridUITests.swift */,
+				D4873ABF1FACFE8700DC0966 /* Info.plist */,
+			);
+			path = RealMadridUITests;
+			sourceTree = "<group>";
+		};
+		D4873ACB1FACFFF200DC0966 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4873A9D1FACFE8700DC0966 /* AppDelegate.swift */,
+				D4873AA41FACFE8700DC0966 /* Assets.xcassets */,
+				D4873AA61FACFE8700DC0966 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4873A991FACFE8700DC0966 /* RealMadrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4873AC21FACFE8700DC0966 /* Build configuration list for PBXNativeTarget "RealMadrid" */;
+			buildPhases = (
+				D4873A961FACFE8700DC0966 /* Sources */,
+				D4873A971FACFE8700DC0966 /* Frameworks */,
+				D4873A981FACFE8700DC0966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealMadrid;
+			productName = RealMadrid;
+			productReference = D4873A9A1FACFE8700DC0966 /* RealMadrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4873AAD1FACFE8700DC0966 /* RealMadridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4873AC51FACFE8700DC0966 /* Build configuration list for PBXNativeTarget "RealMadridTests" */;
+			buildPhases = (
+				D4873AAA1FACFE8700DC0966 /* Sources */,
+				D4873AAB1FACFE8700DC0966 /* Frameworks */,
+				D4873AAC1FACFE8700DC0966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4873AB01FACFE8700DC0966 /* PBXTargetDependency */,
+			);
+			name = RealMadridTests;
+			productName = RealMadridTests;
+			productReference = D4873AAE1FACFE8700DC0966 /* RealMadridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4873AB81FACFE8700DC0966 /* RealMadridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4873AC81FACFE8700DC0966 /* Build configuration list for PBXNativeTarget "RealMadridUITests" */;
+			buildPhases = (
+				D4873AB51FACFE8700DC0966 /* Sources */,
+				D4873AB61FACFE8700DC0966 /* Frameworks */,
+				D4873AB71FACFE8700DC0966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4873ABB1FACFE8700DC0966 /* PBXTargetDependency */,
+			);
+			name = RealMadridUITests;
+			productName = RealMadridUITests;
+			productReference = D4873AB91FACFE8700DC0966 /* RealMadridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4873A921FACFE8600DC0966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Freed Hardeman University";
+				TargetAttributes = {
+					D4873A991FACFE8700DC0966 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D4873AAD1FACFE8700DC0966 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4873A991FACFE8700DC0966;
+					};
+					D4873AB81FACFE8700DC0966 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4873A991FACFE8700DC0966;
+					};
+				};
+			};
+			buildConfigurationList = D4873A951FACFE8600DC0966 /* Build configuration list for PBXProject "RealMadrid" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4873A911FACFE8600DC0966;
+			productRefGroup = D4873A9B1FACFE8700DC0966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4873A991FACFE8700DC0966 /* RealMadrid */,
+				D4873AAD1FACFE8700DC0966 /* RealMadridTests */,
+				D4873AB81FACFE8700DC0966 /* RealMadridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4873A981FACFE8700DC0966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4873AA81FACFE8700DC0966 /* LaunchScreen.storyboard in Resources */,
+				D4873AA51FACFE8700DC0966 /* Assets.xcassets in Resources */,
+				D4873AA31FACFE8700DC0966 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4873AAC1FACFE8700DC0966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4873AB71FACFE8700DC0966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4873A961FACFE8700DC0966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4873ACF1FAD016E00DC0966 /* Players.swift in Sources */,
+				D4873AD31FAD054100DC0966 /* TeamTableViewCell.swift in Sources */,
+				D4873ACD1FAD009800DC0966 /* TeamTableViewController.swift in Sources */,
+				D4873AD11FAD02CC00DC0966 /* PlayersData.swift in Sources */,
+				D4873A9E1FACFE8700DC0966 /* AppDelegate.swift in Sources */,
+				D4873AD51FAD089800DC0966 /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4873AAA1FACFE8700DC0966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4873AB31FACFE8700DC0966 /* RealMadridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4873AB51FACFE8700DC0966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4873ABE1FACFE8700DC0966 /* RealMadridUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4873AB01FACFE8700DC0966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4873A991FACFE8700DC0966 /* RealMadrid */;
+			targetProxy = D4873AAF1FACFE8700DC0966 /* PBXContainerItemProxy */;
+		};
+		D4873ABB1FACFE8700DC0966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4873A991FACFE8700DC0966 /* RealMadrid */;
+			targetProxy = D4873ABA1FACFE8700DC0966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4873AA11FACFE8700DC0966 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4873AA21FACFE8700DC0966 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4873AA61FACFE8700DC0966 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4873AA71FACFE8700DC0966 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4873AC01FACFE8700DC0966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4873AC11FACFE8700DC0966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4873AC31FACFE8700DC0966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RGYVVBYJ5;
+				INFOPLIST_FILE = RealMadrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhu.edu.RealMadrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4873AC41FACFE8700DC0966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RGYVVBYJ5;
+				INFOPLIST_FILE = RealMadrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhu.edu.RealMadrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4873AC61FACFE8700DC0966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealMadridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhu.edu.RealMadridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealMadrid.app/RealMadrid";
+			};
+			name = Debug;
+		};
+		D4873AC71FACFE8700DC0966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealMadridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhu.edu.RealMadridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealMadrid.app/RealMadrid";
+			};
+			name = Release;
+		};
+		D4873AC91FACFE8700DC0966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealMadridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhu.edu.RealMadridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealMadrid;
+			};
+			name = Debug;
+		};
+		D4873ACA1FACFE8700DC0966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealMadridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhu.edu.RealMadridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealMadrid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4873A951FACFE8600DC0966 /* Build configuration list for PBXProject "RealMadrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4873AC01FACFE8700DC0966 /* Debug */,
+				D4873AC11FACFE8700DC0966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4873AC21FACFE8700DC0966 /* Build configuration list for PBXNativeTarget "RealMadrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4873AC31FACFE8700DC0966 /* Debug */,
+				D4873AC41FACFE8700DC0966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4873AC51FACFE8700DC0966 /* Build configuration list for PBXNativeTarget "RealMadridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4873AC61FACFE8700DC0966 /* Debug */,
+				D4873AC71FACFE8700DC0966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4873AC81FACFE8700DC0966 /* Build configuration list for PBXNativeTarget "RealMadridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4873AC91FACFE8700DC0966 /* Debug */,
+				D4873ACA1FACFE8700DC0966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4873A921FACFE8600DC0966 /* Project object */;
+}
